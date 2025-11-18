@@ -15,6 +15,7 @@ public class Main {
             System.out.println("Nimbus LAF not available, using default.");
         }
 
+        SwingUtilities.invokeLater(() -> new TodoFrame().setVisible(true));
         SwingUtilities.invokeLater(() -> new WelcomeFrame().setVisible(true));
     }
 }

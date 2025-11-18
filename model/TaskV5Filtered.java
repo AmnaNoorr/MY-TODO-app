@@ -17,7 +17,7 @@ public class TaskV5Filtered implements Serializable {
         this.category = category;
         this.deadline = deadline;
     }
-
+    
     // Getters and Setters
     public String getTitle() { return title; }
     public void setTitle(String title) { this.title = title; }
